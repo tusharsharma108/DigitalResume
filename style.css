@@ -1623,6 +1623,7 @@ body {
     align-items: flex-start;
     gap: 1.5rem;
     padding: 1.5rem;
+    min-width: 0;
     background: linear-gradient(135deg, rgba(79, 144, 255, 0.05), rgba(0, 212, 255, 0.03));
     border-radius: 12px;
     border: 1px solid rgba(79, 144, 255, 0.1);
@@ -1672,6 +1673,7 @@ body {
 
 .contact-info {
     flex: 1;
+    min-width: 0;
 }
 
 .contact-label {
@@ -1688,6 +1690,8 @@ body {
     color: #1a2740;
     font-weight: 600;
     margin: 0;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 /* ============================================
